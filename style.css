@@ -159,7 +159,7 @@ body {
 }
 
 .official-playlist::after {
-    content: "Official Nintendo";
+    content: "Official";
     position: absolute;
     top: 12px;
     right: 12px;
@@ -177,7 +177,7 @@ body {
 }
 
 .codymkw-playlist::after {
-    content: "By CodyMKW";
+    content: "Page Creator";
     position: absolute;
     top: 12px;
     right: 12px;
@@ -194,7 +194,7 @@ body {
 }
 
 .nm-credit-project::after {
-    content: "NM Credits";
+    content: "NM Credit Project";
     position: absolute;
     top: 12px;
     right: 12px;

@@ -53,7 +53,7 @@ function createPlaylistCard(playlist) {
 
     const img = document.createElement('img');
     img.src = playlist.icon;
-    img.alt = `${playlist.name} cover`;
+    img.alt = `Created by: ${playlist.name} cover`;
     img.loading = "lazy";
 
     const info = document.createElement('div');
