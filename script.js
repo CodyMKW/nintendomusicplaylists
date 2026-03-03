@@ -53,7 +53,7 @@ function createPlaylistCard(playlist) {
 
     const img = document.createElement('img');
     img.src = playlist.icon;
-    img.alt = `Created by: ${playlist.name} cover`;
+    img.alt = `${playlist.name} cover`;
     img.loading = "lazy";
 
     const info = document.createElement('div');
@@ -65,7 +65,7 @@ function createPlaylistCard(playlist) {
 
     const creator = document.createElement('div');
     creator.className = 'playlist-creator';
-    creator.textContent = playlist.creator;
+    creator.textContent = `Created by: ${playlist.creator}`;
 
     info.appendChild(title);
     info.appendChild(creator);
